@@ -4,17 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TTMDxB VPN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #007BFF;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
     <h1>TTMDxB VPN</h1>
-    <p>This VPN for internal use!</p>
+    <p>This VPN is for internal use only!</p>
     <button onclick="connectVPN()">Connect to VPN</button>
+    <div class="footer">© 2024 TTMDxB | Talent Tricks Marketing Management- All Rights Reserved</div>
 
     <script>
         function connectVPN() {
-            // This function can be expanded to trigger the VPN connection
             alert('Connecting to VPN...');
-            // You may include a method to initiate the VPN connection here.
+            // Include your VPN connection logic here
         }
     </script>
 </body>
